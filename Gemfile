@@ -8,6 +8,7 @@ git_source(:github) do |repo_name|
 end
 
 gem "bootstrap-sass"
+gem "jquery-rails"
 gem "font-awesome-sass"
 gem "simple_form"
 gem "autoprefixer-rails"
