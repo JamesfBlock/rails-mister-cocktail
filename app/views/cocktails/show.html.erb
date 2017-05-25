@@ -1,0 +1,26 @@
+<div class="container padded">
+  <div class="flex-results">
+    <div class="row">
+      <div class="col-xs-4">
+        <%= image_tag('cocktail.png') %>
+      </div>
+      <div class="col-xs-8">
+        <h1><%= @cocktail.name %></h1>
+        <br>
+
+      <div class="cock_ing">
+        <h2>Ingredients</h2>
+        <ul style="list-style-type: none; padding: 0px;">
+          <% @cocktail.doses.each do |dose| %>
+          <li><%= dose.ingredient.name %> - <%= dose.description %></li>
+          <% end %>
+        </ul>
+      </div>
+      <div class="cock_but">
+        <%= link_to 'back to cocktails', cocktails_path %>
+        <%= link_to 'Add Dose', new_cocktail_dose_path(@cocktail), class: 'btn btn-primary' %>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>

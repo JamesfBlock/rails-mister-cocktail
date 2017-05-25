@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background: #f7f7f7;
+  padding: 50px;
+  color: #66778e;
+  margin: 100px 0px 0px 0px;
+  border-radius: 10px;
+  text-align: center;
+  h2 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+}
+
+.icon {
+  position: absolute;
+  top: 45px;
+  right: 145px;
+}
