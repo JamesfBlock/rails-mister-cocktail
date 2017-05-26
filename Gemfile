@@ -12,6 +12,8 @@ gem "jquery-rails"
 gem "font-awesome-sass"
 gem "simple_form"
 gem "autoprefixer-rails"
+gem "cloudinary"
+gem "figaro"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.1'
